@@ -1,0 +1,67 @@
+html, body{height: 100%;}
+
+body{ background: whitesmoke;
+margin: 0;}
+h2{font-family: cursive; 
+color: palevioletred; 
+text-shadow: 2px 3px 3px plum;}
+h3{font-family: Georgia, 'Times New Roman', Times, serif;}
+
+a{color: lightcoral;}
+a:hover{color: pink;
+text-decoration: none;}
+
+.project-item{display: flow-root;
+margin: 30px 0;}
+
+.project-item img{width: 300px;
+float: left;
+margin-right: 20px;}
+
+footer a{color: whitesmoke;}
+footer a:hover{ color: lightcoral;}
+
+.home{background: url(../ResumeAssignment/images/Japanscean.jpeg) no-repeat; 
+background-size: cover;
+display: flex;
+flex-direction: column;}
+.home .content-wrap{flex: 1 0 auto;}
+.content-bg{background: white; padding: 30px;}
+
+.resume header::before{
+    background: url(../ResumeAssignment/images/Japanscean.jpeg) center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+
+.resume-section{ margin-bottom: 50px;}
+.resume-section h2{border-bottom: 2px dashed lightgreen;}
+
+.download{ position: fixed;
+top: 5px;
+left: 5px;}
+
+footer{ background: darkolivegreen; 
+color: azure;
+display: flex;
+justify-content: space-between;
+padding: 0 20px;}
+
+.btn{ background: lightcoral;
+color: white; text-decoration: none;}
+
+.content-wrap{margin: 0 auto;
+max-width: 900px;
+padding: 30px;}
+
+.social{list-style-type: none;
+padding: 0;
+margin-left: 10px;}
+.social li{display: inline-block;}
+.social img:hover{opacity: 50%;}
+
+.work-item{display: grid;
+grid-template-columns: 300px 1fr;
+column-gap: 20px;}
